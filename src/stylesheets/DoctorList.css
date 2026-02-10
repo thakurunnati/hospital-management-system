@@ -1,0 +1,126 @@
+.doctor-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Doctor list card */
+.doctor-list {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-top: 24px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
+}
+
+/* Heading */
+.doctor-list h2 {
+  color: #0f766e;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Table */
+.doctor-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table head */
+.doctor-list th {
+  background: #0f766e;
+  color: #ffffff;
+  padding: 14px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Table body */
+.doctor-list td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #374151;
+}
+
+/* Row hover */
+.doctor-list tr:hover td {
+  background: #f0fdfa;
+}
+
+/* Action buttons wrapper */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* View button */
+.doctor-list .view-btn {
+  background: #0f766e;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.15s ease;
+  white-space: nowrap;
+}
+
+.doctor-list .view-btn:hover {
+  background: #115e59;
+  transform: scale(1.05);
+}
+
+/* Delete button */
+.doctor-list .delete-btn {
+  background: #dc2626;
+  color: #ffffff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.15s ease;
+  white-space: nowrap;
+}
+
+.doctor-list .delete-btn:hover {
+  background: #b91c1c;
+  transform: scale(1.05);
+}
+
+/* Empty state */
+.doctor-list p {
+  text-align: center;
+  color: #6b7280;
+  padding: 32px;
+  font-size: 14px;
+}
+
+/* Appointment badge */
+.appointment-badge {
+  display: inline-block;
+  background: #22c55e;
+  color: #ffffff;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Appointments section */
+.doctor-appointments {
+  margin-top: 24px;
+}

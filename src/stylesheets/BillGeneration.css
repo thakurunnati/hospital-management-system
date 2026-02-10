@@ -1,0 +1,206 @@
+/* Overlay */
+.bill-generation {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(15, 118, 110, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal */
+.bill-modal {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+  max-width: 720px;
+  width: 92%;
+  max-height: 84vh;
+  overflow-y: auto;
+}
+
+/* Header */
+.bill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0fdfa;
+  border-bottom: 1px solid #ccfbf1;
+  border-radius: 14px 14px 0 0;
+}
+
+.bill-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.close-btn:hover {
+  color: #111827;
+}
+
+/* Content */
+.bill-content {
+  padding: 20px;
+}
+
+/* Patient & Doctor info */
+.patient-doctor-info {
+  display: flex;
+  gap: 20px;
+  padding: 14px;
+  margin-bottom: 20px;
+  background-color: #f0fdfa;
+  border-radius: 10px;
+}
+
+.info-block {
+  flex: 1;
+}
+
+.info-block label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.info-block p {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Sections */
+.bill-section {
+  margin-bottom: 20px;
+}
+
+.bill-section h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+/* Fee items */
+.fee-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.fee-item .price {
+  font-weight: 700;
+  color: #16a34a;
+}
+
+/* Empty state */
+.no-medicines {
+  text-align: center;
+  padding: 18px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* Summary */
+.bill-summary {
+  background-color: rgba(15, 118, 110, 0.08);
+  padding: 16px;
+  border-radius: 10px;
+  margin: 22px 0;
+  border-left: 4px solid #0f766e;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.summary-row.total {
+  border-top: 2px solid #0f766e;
+  padding-top: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0f766e;
+}
+
+/* Actions */
+.bill-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+/* Buttons */
+.btn-generate {
+  padding: 10px 20px;
+  background-color: #0f766e;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 4px 12px rgba(15, 118, 110, 0.3);
+}
+
+.btn-generate:hover {
+  background-color: #115e59;
+  transform: translateY(-2px);
+}
+
+.btn-cancel {
+  padding: 10px 20px;
+  background-color: #e5e7eb;
+  color: #374151;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-cancel:hover {
+  background-color: #d1d5db;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .bill-modal {
+    max-height: 90vh;
+  }
+
+  .patient-doctor-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bill-actions {
+    flex-direction: column;
+  }
+
+  .btn-generate,
+  .btn-cancel {
+    width: 100%;
+  }
+}

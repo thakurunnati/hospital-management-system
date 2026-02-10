@@ -1,0 +1,30 @@
+.navbar {
+  background: #ffffff;
+  color: #111827;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter", Arial, sans-serif;
+  width: 86vw;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Title */
+.navbar-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #0f766e; /* same teal as sidebar */
+}
+
+/* User badge */
+.navbar-user {
+  font-size: 13px;
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 6px 12px;
+  border-radius: 999px; /* pill style */
+  font-weight: 500;
+}
