@@ -17,7 +17,6 @@
   font-weight: 700;
 }
 
-/* FILTER */
 .filter-section {
   display: flex;
   gap: 15px;
@@ -50,7 +49,6 @@
   border-color: #2bb0a6;
 }
 
-/* EMPTY */
 .no-data {
   text-align: center;
   color: #6b8f93;
@@ -60,14 +58,12 @@
   border-radius: 8px;
 }
 
-/* LIST */
 .purchases-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-/* CARD */
 .purchase-card {
   background-color: #ffffff;
   border-radius: 8px;
@@ -81,7 +77,6 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
 }
 
-/* HEADER */
 .purchase-header {
   display: flex;
   justify-content: space-between;
@@ -107,7 +102,6 @@
   font-weight: 800;
 }
 
-/* BODY */
 .purchase-body {
   padding: 20px;
 }
@@ -137,7 +131,6 @@
   background-color: #f0f9f8;
 }
 
-/* FOOTER */
 .purchase-footer {
   padding: 12px 20px;
   background-color: #f9fafa;
@@ -162,7 +155,6 @@
   transform: scale(0.98);
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .purchase-history {
     padding: 15px;

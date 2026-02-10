@@ -7,7 +7,6 @@
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
 }
 
-/* Heading */
 .patient-list h2 {
   text-transform: uppercase;
   color: #0f766e;
@@ -17,7 +16,6 @@
   font-weight: 700;
 }
 
-/* Table wrapper */
 .patient-list table {
   width: 100%;
   border-collapse: collapse;
@@ -26,7 +24,6 @@
   overflow: hidden;
 }
 
-/* Table head */
 .patient-list th {
   background: #0f766e;
   color: #ffffff;
@@ -36,7 +33,6 @@
   font-size: 14px;
 }
 
-/* Table body cells */
 .patient-list td {
   padding: 14px;
   border-bottom: 1px solid #e5e7eb;
@@ -44,12 +40,10 @@
   color: #374151;
 }
 
-/* Row hover */
 .patient-list tr:hover td {
   background: #f0fdfa;
 }
 
-/* Delete button */
 .patient-list .delete-btn {
   background: #dc2626;
   color: #ffffff;
@@ -67,7 +61,6 @@
   transform: scale(1.05);
 }
 
-/* Empty state */
 .patient-list p {
   text-align: center;
   color: #6b7280;

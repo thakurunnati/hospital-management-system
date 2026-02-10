@@ -1,12 +1,12 @@
 .appointment-list {
   padding: 20px;
-  background-color: #e6f4f3; /* soft teal */
+  background-color: #e6f4f3;
   border-radius: 8px;
   margin-top: 20px;
 }
 
 .appointment-list h2 {
-  color: #0f4c5c; /* deep teal */
+  color: #0f4c5c;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -37,7 +37,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* HEADER */
+
 .card-header {
   background: linear-gradient(135deg, #2bb0a6, #1f8a83);
   padding: 20px;
@@ -69,7 +69,7 @@
   margin: 0;
 }
 
-/* BODY */
+
 .card-body {
   padding: 20px;
 }
@@ -105,7 +105,7 @@
   font-size: 14px;
 }
 
-/* FOOTER */
+
 .card-footer {
   padding: 15px 20px;
   background-color: #f0f9f8;
@@ -117,7 +117,6 @@
   gap: 10px;
 }
 
-/* PRIMARY ACTION */
 .btn-generate-bill {
   flex: 1;
   padding: 10px;
@@ -135,7 +134,7 @@
   background-color: #23948c;
 }
 
-/* VISITED */
+
 .visited-badge {
   flex: 1;
   padding: 10px;
@@ -148,7 +147,7 @@
   font-size: 14px;
 }
 
-/* DELETE */
+
 .btn-delete {
   flex: 1;
   padding: 10px;
@@ -166,7 +165,7 @@
   background-color: #cf4444;
 }
 
-/* CONFIRM DELETE */
+
 .confirm-cancel {
   display: flex;
   flex-direction: column;
@@ -215,7 +214,7 @@
   background-color: #678a8d;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
   .appointment-cards {
     grid-template-columns: 1fr;

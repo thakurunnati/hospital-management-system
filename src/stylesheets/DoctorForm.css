@@ -9,7 +9,6 @@
   font-family: "Inter", Arial, sans-serif;
 }
 
-/* Title */
 .doctor-form h2 {
   text-align: center;
   color: #0f766e;
@@ -20,12 +19,10 @@
   text-transform: uppercase;
 }
 
-/* Form group */
 .form-group {
   margin-bottom: 18px;
 }
 
-/* Labels */
 .form-group label {
   display: block;
   margin-bottom: 6px;
@@ -34,7 +31,6 @@
   font-size: 13px;
 }
 
-/* Inputs & selects */
 .form-group input,
 .form-group select {
   width: 100%;
@@ -48,14 +44,12 @@
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Focus state */
 .form-group input:focus,
 .form-group select:focus {
   border-color: #0f766e;
   box-shadow: 0 0 0 2px rgba(15, 118, 110, 0.25);
 }
 
-/* Submit button */
 .doctor-form button {
   width: 100%;
   padding: 12px;
@@ -69,13 +63,11 @@
   transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Hover */
 .doctor-form button:hover {
   background: #115e59;
   box-shadow: 0 6px 14px rgba(15, 118, 110, 0.3);
 }
 
-/* Active */
 .doctor-form button:active {
   transform: scale(0.97);
 }

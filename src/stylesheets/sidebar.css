@@ -1,7 +1,7 @@
 .sidebar {
   width: 240px;
   min-height: 100vh;
-  background: #f9fafb; /* soft medical white */
+  background: #f9fafb; 
   padding: 24px 16px;
   display: flex;
   flex-direction: column;
@@ -9,11 +9,11 @@
   border-right: 1px solid #e5e7eb;
 }
 
-/* Sidebar buttons */
+
 .sidebar button {
   padding: 12px 14px;
   border: none;
-  background: #0f766e; /* calm teal-green */
+  background: #0f766e; 
   cursor: pointer;
   border-radius: 8px;
   font-size: 14px;
@@ -23,14 +23,13 @@
   transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Hover effect */
+
 .sidebar button:hover {
   background: #115e59;
   transform: translateX(4px);
   box-shadow: 0 4px 10px rgba(15, 118, 110, 0.25);
 }
 
-/* Active / selected state (optional) */
 .sidebar button.active {
   background: #134e4a;
 }

@@ -17,7 +17,7 @@
   text-transform: uppercase;
 }
 
-/* Empty state */
+
 .no-data {
   text-align: center;
   color: #6b7280;
@@ -25,14 +25,14 @@
   font-size: 14px;
 }
 
-/* Grid */
+
 .bills-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 20px;
 }
 
-/* Card */
+
 .bill-card {
   background-color: #ffffff;
   border-radius: 14px;
@@ -47,7 +47,7 @@
   box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
 }
 
-/* Header */
+
 .bill-card-header {
   display: flex;
   justify-content: space-between;
@@ -75,7 +75,7 @@
   text-align: right;
 }
 
-/* Body */
+
 .bill-card-body {
   padding: 16px;
 }
@@ -95,7 +95,7 @@
   margin: 12px 0;
 }
 
-/* Medicines */
+
 .medicines-section {
   margin-top: 12px;
 }
@@ -116,7 +116,7 @@
   color: #6b7280;
 }
 
-/* Footer */
+
 .bill-card-footer {
   padding: 14px;
   background-color: #f9fafb;
@@ -125,7 +125,7 @@
   gap: 10px;
 }
 
-/* Buttons */
+
 .btn-print {
   flex: 1;
   padding: 10px;
@@ -160,7 +160,6 @@
   background-color: #b91c1c;
 }
 
-/* Confirm delete */
 .confirm-delete {
   display: flex;
   flex-direction: column;
@@ -199,7 +198,6 @@
   font-weight: 600;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .bills-container {
     grid-template-columns: 1fr;

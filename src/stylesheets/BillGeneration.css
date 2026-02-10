@@ -1,4 +1,3 @@
-/* Overlay */
 .bill-generation {
   position: fixed;
   inset: 0;
@@ -9,7 +8,6 @@
   z-index: 1000;
 }
 
-/* Modal */
 .bill-modal {
   background-color: #ffffff;
   border-radius: 14px;
@@ -20,7 +18,6 @@
   overflow-y: auto;
 }
 
-/* Header */
 .bill-header {
   display: flex;
   justify-content: space-between;
@@ -50,12 +47,12 @@
   color: #111827;
 }
 
-/* Content */
+
 .bill-content {
   padding: 20px;
 }
 
-/* Patient & Doctor info */
+
 .patient-doctor-info {
   display: flex;
   gap: 20px;
@@ -84,7 +81,7 @@
   color: #0f172a;
 }
 
-/* Sections */
+
 .bill-section {
   margin-bottom: 20px;
 }
@@ -96,7 +93,7 @@
   color: #0f172a;
 }
 
-/* Fee items */
+
 .fee-item {
   display: flex;
   justify-content: space-between;
@@ -111,7 +108,7 @@
   color: #16a34a;
 }
 
-/* Empty state */
+
 .no-medicines {
   text-align: center;
   padding: 18px;
@@ -119,7 +116,7 @@
   color: #6b7280;
 }
 
-/* Summary */
+
 .bill-summary {
   background-color: rgba(15, 118, 110, 0.08);
   padding: 16px;
@@ -145,14 +142,13 @@
   color: #0f766e;
 }
 
-/* Actions */
+
 .bill-actions {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
 }
 
-/* Buttons */
 .btn-generate {
   padding: 10px 20px;
   background-color: #0f766e;
@@ -184,7 +180,7 @@
   background-color: #d1d5db;
 }
 
-/* Responsive */
+
 @media (max-width: 600px) {
   .bill-modal {
     max-height: 90vh;

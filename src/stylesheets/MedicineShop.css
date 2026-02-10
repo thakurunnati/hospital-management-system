@@ -12,7 +12,6 @@
   margin: 0 auto;
 }
 
-/* LEFT */
 .shop-left {
   background-color: #ffffff;
   border-radius: 8px;
@@ -58,7 +57,6 @@
   grid-column: 1 / -1;
 }
 
-/* MEDICINE CARD */
 .medicine-card {
   background-color: #f0f9f8;
   border: 1px solid #d6eeee;
@@ -86,7 +84,6 @@
   flex: 1;
 }
 
-/* PRICE */
 .price {
   background-color: #2bb0a6;
   color: white;
@@ -113,7 +110,6 @@
   font-weight: 600;
 }
 
-/* ADD TO CART */
 .btn-add-cart {
   width: 100%;
   padding: 10px;
@@ -135,7 +131,6 @@
   cursor: not-allowed;
 }
 
-/* RIGHT / CART */
 .shop-right {
   background-color: #ffffff;
   border-radius: 8px;
@@ -187,7 +182,6 @@
   border-radius: 4px;
 }
 
-/* CART ITEM */
 .cart-item {
   display: flex;
   align-items: center;
@@ -283,7 +277,6 @@
   background-color: #cf4444;
 }
 
-/* SUMMARY */
 .cart-summary {
   background-color: #f0f9f8;
   padding: 12px;
@@ -309,7 +302,6 @@
   color: #0f4c5c;
 }
 
-/* CHECKOUT */
 .btn-checkout {
   width: 100%;
   padding: 12px;
@@ -332,7 +324,6 @@
   cursor: not-allowed;
 }
 
-/* RESPONSIVE */
 @media (max-width: 1024px) {
   .shop-container {
     grid-template-columns: 1fr;
