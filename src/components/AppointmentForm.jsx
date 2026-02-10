@@ -48,6 +48,12 @@ return appointments.some(
 );
 };
 
+const isDoctorAvailable=()=>{
+  const doctor= doctors.find((d)=> d.id === form.doctorId);
+  if(!doctor)return false;
+  return form.time>=doctor.startTime && form.time<=doctor.endTime;
+}
+
 const handleSubmit = (e) =>{
   e.preventDefault();
 
@@ -60,10 +66,16 @@ const handleSubmit = (e) =>{
     return;
   }
 
-  if(!form.date || form.time){
+  if(!form.date || !form.time){
     setError("please select date and time");
     return;
   }
+
+if(!isDoctorAvailable()){
+  const doctor= doctors.find((d)=> d.id===form.doctorId);
+  setError(`Dr. ${doctor.name} is only available between ${doctor.startTime} - ${doctor.endTime}`)
+}
+
   if(isSlotBooked()){
     setError(`Dr. ${form.doctorName} is not available at ${form.time} on ${form.date}`)
     return;
@@ -152,13 +164,15 @@ alert("Appointment booked successfully!");
   <textarea 
   placeholder='reason for appointment'
   value={form.reason}
-  onChange={(e) => ({...form, reason: e.target.value})}
+  onChange={(e) => setForm({...form, reason: e.target.value})}
   rows='3'
   required
   >
 </textarea>
 </div>
-
+<button type='submit'>
+  Book Appointment
+</button>
     </form>
   );
 }
