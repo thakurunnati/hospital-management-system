@@ -1,5 +1,5 @@
 import React from 'react'
-import "../stylesheets/Sidebar.css" 
+import "../stylesheets/sidebar.css" 
 export default function Sidebar({setActiveModule}) {
   return (
     <div className='sidebar'>   
